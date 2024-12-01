@@ -1,8 +1,8 @@
 2024-12-01
 
-Established these React facts
+Established these React facts from wikipedia page
 
-Used:
+Use case:
 To create single page applications (SPAs) 
 with the help of Next.js
 
@@ -24,13 +24,21 @@ full-page reloads.
 Developed by:
 Meta/Facebook. Now open source.
 
-*routing: this is about controlling the 
+*routing: this is concerned with the navigation of networks.
+The concern with React is page routing, since react does not include it.
+Given a path /street/house/room, navigation works from the street node 
+down the room node. 
+In a multi-page applcation this path would map onto a folder
+structure with pages as html files.
+In single page applications, we need to control this virtually 
+by defining a set of routes.
+Among other things this solves the problem of controlling the 
 behavior of browser navigation, including 
 the behaviour of forward/back buttons.
 In a single page app (SPA) such as 
 are created with React, where few 'full page 
 reloads' take place, it becomes necessary 
-to take control of routing.
+to take control of page routing.
 
 Next: 
 
@@ -40,4 +48,6 @@ Next:
  - investigate Next.js
 
  - listen to Modern React audio on Spotify
+
+
  
