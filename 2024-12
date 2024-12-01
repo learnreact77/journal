@@ -1,0 +1,43 @@
+2024-12-01
+
+Established these React facts
+
+Used:
+To create single page applications (SPAs) 
+with the help of Next.js
+
+Ambition: 
+to allow more seamless building of 
+websites based on components.
+
+Scope/Concern: 
+is only concerned with rendering of 
+components to the screen.
+Relies on external libraries for 
+things like routing*
+
+Chief advantage:
+Only triggers re-render actions on 
+screen elements that have changed - avoiding
+full-page reloads.
+
+Developed by:
+Meta/Facebook. Now open source.
+
+*routing: this is about controlling the 
+behavior of browser navigation, including 
+the behaviour of forward/back buttons.
+In a single page app (SPA) such as 
+are created with React, where few 'full page 
+reloads' take place, it becomes necessary 
+to take control of routing.
+
+Next: 
+
+ - investigate build options from github, 
+ eg 'Git pages'
+
+ - investigate Next.js
+
+ - listen to Modern React audio on Spotify
+ 
