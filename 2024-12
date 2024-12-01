@@ -25,8 +25,36 @@ full-page reloads.
 Developed by:
 Meta/Facebook. Now open source.
 
-Architecture:
+Coding Paradigm:
+Declarative, rather than imperative.
+"Developers design views for each state of an application, and React updates and renders components when data changes"
 
+Architecture:
+Components, which are modular and reusable.
+These can be Functional Components or Class Components.
+Class components were originally necessary for full functionality, but
+Functional components are now favoured:
+
+"The introduction of React Hooks with React 16.8 in February 2019 allowed 
+developers to manage state and lifecycle behaviors within functional components."
+"This trend aligns with the broader industry movement towards functional 
+programming and modular design."
+
+Language:
+Pure Javascript or (more usually) JSX
+
+What is JSX:
+ - An extension of pure JS. 
+ - It is the format always returned from Functional Components.
+ - It allows the inclusion of structures similar to xml/html within JS,
+including nodes that can be structured in a hierarchy, and attributes.
+ - The node types typically found in html are supported, such as div, p, span.
+ - attribute names from html are also supported
+ - attribute values can be JS expressions in curly parentheses
+ - custom nodes can be defined, whose definitions are provided by react components
+ - attributes added to custom nodes within a JSX structure are passed to these components as props.
+Typically a JS function will be defined and its return value will be JSX
+in parentheses (). @see https://en.wikipedia.org/wiki/JSX_(JavaScript)
 
 *routing: this is concerned with the navigation of networks.
 The concern with React is page routing, since react does not include it.
