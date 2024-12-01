@@ -1,6 +1,7 @@
 2024-12-01
 
 Established these React facts from wikipedia page
+https://en.wikipedia.org/wiki/React_(software)
 
 Use case:
 To create single page applications (SPAs) 
@@ -24,6 +25,9 @@ full-page reloads.
 Developed by:
 Meta/Facebook. Now open source.
 
+Architecture:
+
+
 *routing: this is concerned with the navigation of networks.
 The concern with React is page routing, since react does not include it.
 Given a path /street/house/room, navigation works from the street node 
@@ -39,6 +43,8 @@ In a single page app (SPA) such as
 are created with React, where few 'full page 
 reloads' take place, it becomes necessary 
 to take control of page routing.
+In React, page routing is typically provided by React Router:
+https://www.w3schools.com/react/react_router.asp
 
 Next: 
 
