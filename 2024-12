@@ -91,4 +91,14 @@ https://jekyllrb.com/docs/frontmatter/
 Jekyll was mentioned on https://en.wikipedia.org/wiki/Server-side_scripting#Server-side_rendering
 Under 'static site generation tools'.
 
+I actually messed this up a bit, adding the _posts directory under the .github folder instead of at the top level. 
+This meant that github actiosn stopped updating the readme with the next step.
+Luckily I was able to work out how github actions wored and read what the next step needed to be.
+
+Next:
+
+Make a new version of this journal repo that uses jekyll and github pages?
+
+
+
  
