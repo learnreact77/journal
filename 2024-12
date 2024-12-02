@@ -95,6 +95,8 @@ I actually messed this up a bit, adding the _posts directory under the .github f
 This meant that github actiosn stopped updating the readme with the next step.
 Luckily I was able to work out how github actions wored and read what the next step needed to be.
 
+I had to download github destop to delete this extra .github/_posts folder. 
+
 Next:
 
 Make a new version of this journal repo that uses jekyll and github pages?
