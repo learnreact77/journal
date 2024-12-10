@@ -108,6 +108,21 @@ listen to Modern React audio on Spotify
 Create a 'Rules Tool' using React.
 (First: Design the Rules Tool)
 
+2024-12-10
+
+Google search for Next.js. 
+found this: https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs
+Completed chapters 1-4, committing progress to a new repo: https://github.com/learnreact77/next-js-react-foundations
+Made project render to web using pages.
+Completed progress through chapters:
+ - wrote a static page that updated parts of the dom using imperative JS
+ - imported react and react dom
+ - replaced the imperative code with declarative react commands
+ - recast my script as jsx using babel (another import)
+ - observed the republished page 
+
+Next: continue with https://nextjs.org/learn/react-foundations/what-is-react-and-nextjs (Chapter 5)
+
 
 
  
